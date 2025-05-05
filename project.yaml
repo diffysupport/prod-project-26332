@@ -9,10 +9,10 @@ basic:
         - 1024
         - 1200
     pages:
-        - /heating-cooling/21018992/read-this-before-you-install-central-air-conditioning
-        - /doors/21019066/all-about-exterior-french-doors
-        - /gutters/21016457/how-to-install-rain-gutters
-        - /flooring/21016706/how-to-tile-a-floor
+        - '/heating-cooling/21018992/read-this-before-you-install-central-air-conditioning/?src=jpplatform'
+        - '/doors/21019066/all-about-exterior-french-doors/?src=jpplatform'
+        - '/gutters/21016457/how-to-install-rain-gutters/?src=jpplatform'
+        - '/flooring/21016706/how-to-tile-a-floor/?src=jpplatform'
     monitoring:
         days: {  }
         type: ''
@@ -31,7 +31,19 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
